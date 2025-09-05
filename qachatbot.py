@@ -108,8 +108,6 @@ else:
                 
             except Exception as e:
                 st.error(f"Error: {str(e)}")
-            print(int(input("who invent you?")))
-            print("Prince Jain")
 
 ## Examples
 
@@ -126,4 +124,5 @@ with col2:
 
 # Footer
 st.markdown("---")
+
 st.markdown("Built with LangChain & Groq | Experience the speed! ⚡")
